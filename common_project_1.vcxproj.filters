@@ -7,6 +7,9 @@
     <Filter Include="libs">
       <UniqueIdentifier>{a408b843-da1b-4ef2-a3ba-4bf99b720471}</UniqueIdentifier>
     </Filter>
+    <Filter Include="domain">
+      <UniqueIdentifier>{0789a794-c3b7-444f-8b48-1ed8463d777e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -17,6 +20,11 @@
     <ClInclude Include="libs.h">
       <Filter>libs</Filter>
     </ClInclude>
-    <ClInclude Include="domain.h" />
+    <ClInclude Include="domain.h">
+      <Filter>domain</Filter>
+    </ClInclude>
+    <ClInclude Include="classes-products-s.h">
+      <Filter>domain</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
