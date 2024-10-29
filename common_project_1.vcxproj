@@ -131,6 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="classes-products-s.h" />
+    <ClInclude Include="class_A.h" />
     <ClInclude Include="domain.h" />
     <ClInclude Include="libs.h" />
   </ItemGroup>
